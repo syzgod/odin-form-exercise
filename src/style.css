@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  @apply rounded-md border border-black p-2 invalid:outline-red-800 focus:outline-amber-600;
+}
+
+label {
+  @apply uppercase;
+}
