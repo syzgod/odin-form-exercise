@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 input {
-  @apply rounded-md border border-black p-2 invalid:outline-red-800 focus:outline-amber-600;
+  @apply rounded-md border border-black p-2 shadow-black invalid:outline-red-800 focus:outline-amber-600 focus:drop-shadow-xl;
 }
 
 label {
