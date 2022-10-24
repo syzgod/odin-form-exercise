@@ -9,3 +9,7 @@ input {
 label {
   @apply uppercase;
 }
+
+.invalid {
+  @apply border-4 border-red-800;
+}
